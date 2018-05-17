@@ -15,4 +15,5 @@ print(favorite_language)
 favorite_language = ' python '
 favorite_language = favorite_language.strip()
 print(favorite_language)
-# delete the character of  the  all sides space
+# delete the character of  the all sides space
+
