@@ -5,7 +5,7 @@
     <ProjectGuid>070eb0cb-a92b-4c5f-8458-12e8606fbda5</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Python_Learning_code.py</StartupFile>
+    <StartupFile>高考.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="many_users.py" />
+    <Compile Include="高考.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

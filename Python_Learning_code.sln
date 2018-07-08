@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Learning_code", "Python_Learning_code\Python_Learning_Code.pyproj", "{070EB0CB-A92B-4C5F-8458-12E8606FBDA5}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Learning_Code", "Python_Learning_code\Python_Learning_Code.pyproj", "{070EB0CB-A92B-4C5F-8458-12E8606FBDA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50184CED-867B-4C45-9D75-720A05F21E35}"
+	ProjectSection(SolutionItems) = preProject
+		高考.py = 高考.py
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
