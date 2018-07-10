@@ -2,7 +2,7 @@
 aliens = []
 
 # Make 30 green aliens.
-for alien_number in range (30, 0):
+for alien_number in range(30):
     new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
     aliens.append(new_alien)
     
@@ -17,6 +17,6 @@ for alien in aliens[0:3]:
         alien['points'] = 15
 
 # Show the first 5 aliens:
-for alien in aliens[0:5]:
+for alien in aliens[0:30]:
     print(alien)
 print("...")
