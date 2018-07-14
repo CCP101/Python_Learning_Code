@@ -9,7 +9,8 @@ def print_models(unprinted_designs, completed_models):
         # Simulate creating a 3d print from the design.
         print("Printing model: " + current_design)
         completed_models.append(current_design)
-        
+
+
 def show_completed_models(completed_models):
     """Show all the models that were printed."""
     print("\nThe following models have been printed:")

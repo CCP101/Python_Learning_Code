@@ -9,6 +9,5 @@ def get_formatted_name(first_name, last_name, middle_name=''):
 
 musician = get_formatted_name('jimi', 'hendrix')
 print(musician)
-
 musician = get_formatted_name('john', 'hooker', 'lee')
 print(musician)
