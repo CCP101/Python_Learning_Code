@@ -1,4 +1,4 @@
-class Dog():
+class Dog:
     """A simple attempt to model a dog."""
     
     def __init__(self, name, age):
@@ -24,4 +24,4 @@ my_dog.sit()
 
 print("\nMy dog's name is " + your_dog.name.title() + ".")
 print("My dog is " + str(your_dog.age) + " years old.")
-your_dog.sit()
+your_dog.roll_over()
