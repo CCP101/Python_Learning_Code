@@ -5,6 +5,7 @@ from settings import Settings
 from ship import Ship
 import game_functions as gf
 
+
 def run_game():
     # Initialize pygame, settings, and screen object.
     pygame.init()
@@ -12,20 +13,22 @@ def run_game():
     screen = pygame.display.set_mode(
         (ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Alien Invasion")
-    
+
     # Set the background color.
-    bg_color = (230, 230, 230)
-    
+    bg_color = (0, 0, 255)
+
     # Make a ship.
     ship = Ship(ai_settings, screen)
     # Make a group to store bullets in.
     bullets = Group()
 
     # Start the main loop for the game.
-    while True:
+    while True:  # 监视键盘和鼠标事件
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
+        screen.fill(bg_color)
         gf.update_bullets(bullets)
         gf.update_screen(ai_settings, screen, ship, bullets)
+
 
 run_game()
