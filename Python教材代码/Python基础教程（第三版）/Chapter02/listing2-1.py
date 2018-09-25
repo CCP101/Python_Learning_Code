@@ -1,5 +1,4 @@
 # Print out a date, given year, month, and day as numbers
-
 months = [
     'January',
     'February',
@@ -14,7 +13,6 @@ months = [
     'November',
     'December'
 ]
-
 # A list with one ending for each number from 1 to 31
 endings = ['st', 'nd', 'rd'] + 17 * ['th'] \
           + ['st', 'nd', 'rd'] + 7 * ['th'] \
