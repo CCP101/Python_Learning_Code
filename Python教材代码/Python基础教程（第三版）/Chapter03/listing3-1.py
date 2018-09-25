@@ -4,7 +4,7 @@ width = int(input('Please enter width: '))
 
 price_width = 10
 item_width = width - price_width
-
+# 格式化控制
 header_fmt = '{{:{}}}{{:>{}}}'.format(item_width, price_width)
 fmt = '{{:{}}}{{:>{}.2f}}'.format(item_width, price_width)
 
